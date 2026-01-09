@@ -1,6 +1,7 @@
 function Profile({ name, age, isOnline })
 {
     return(
+        
         <div className="card">
             <div className="pic"></div>
         <h1>Name: {name}</h1>

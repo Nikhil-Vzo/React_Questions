@@ -46,4 +46,11 @@ font-size: medium;
     margin: 0 auto;
     opacity: 0.2;
     margin-bottom: 16px;
+    transition: border-radius 0.3s ease-in-out;
 }
+
+.card:hover .pic {
+    border-radius: 15px;
+   
+}
+
