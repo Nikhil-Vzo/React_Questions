@@ -6,19 +6,44 @@
     font-family: 'Segoe UI',  Verdana, sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+
+.baap
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+
 }
 
 .card
 {
     width: fit-content;
     height: fit-content;
-    border: solid 2px black;
+    border: 1px solid rgba(2, 141, 255, 0.3);
     border-radius: 15px;
-    padding: 3rem 1rem;
-    margin: 2rem auto;
+    padding: 1rem;
+    margin: 2rem ;
+ background: linear-gradient(
+  135deg,
+  #d4b5ff,
+  #f7d8ff,
+  #fff7eb
+);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+text-decoration: #5819ae;
+padding-bottom: 20px;
+font-size: medium;
+}
+
+.pic
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin: 0 auto;
+    opacity: 0.2;
+    margin-bottom: 16px;
 }
