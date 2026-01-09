@@ -1,7 +1,10 @@
-function Profile(){
+function Profile(name,age,isOnline){
     return(
         <>
-        <h1>Profile Component</h1>
+        <h1>Name: {name}</h1>
+        <h1>Age: {age}</h1>
+        <h1>Status: {isOnline}</h1>
+        <h1></h1>
         </>
     )  
 }
